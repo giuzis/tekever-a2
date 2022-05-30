@@ -38,3 +38,5 @@ The assessment consists of an API to open a new &quot;current account of already
     pip install -r requirements.txt
     python index.py
 
+### Testing:
+    pytest
