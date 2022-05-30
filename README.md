@@ -27,6 +27,8 @@ Add .env in the directory root:
 ### Execution
     docker build --tag a2 .
     docker run a2
+    
+Go to http://localhost:5000/api
   
 ## Run without Docker
 
@@ -45,6 +47,8 @@ Add .env in the directory root:
     .\venv\Scripts\activate
     pip install -r requirements.txt
     python index.py
+
+Go to http://localhost:5000/api
 
 ### Testing:
     pytest
