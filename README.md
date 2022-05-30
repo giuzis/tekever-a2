@@ -14,6 +14,7 @@ The assessment consists of an API to open a new &quot;current account of already
 Add .env in the directory root:
 
         ENV=development
+        SECRET_KEY=SECRET_KEY
         PORT=5000
 
 
