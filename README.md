@@ -17,7 +17,7 @@ The assessment consists of an API to open a new &quot;current account of already
 
 ### Execution
   docker build --tag a2 .
-  docker run -d -p 5000:5000 a2
+  docker run a2
   
   
 ## Run without Docker
@@ -27,14 +27,14 @@ The assessment consists of an API to open a new &quot;current account of already
 
 ### Execution
 #### Linux:
-  python -m venv venv
-  source venv/bin/activate
-  pip install -r requirements.txt
-  python index.py
+    python -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    python index.py
   
 #### Windows:
-  python -m venv venv
-  .\venv\Scripts\activate
-  pip install -r requirements.txt
-  python index.py
+    python -m venv venv
+    .\venv\Scripts\activate
+    pip install -r requirements.txt
+    python index.py
 
