@@ -16,8 +16,8 @@ The assessment consists of an API to open a new &quot;current account of already
 - Docker Compose https://docs.docker.com/compose/install/
 
 ### Execution
-  docker build --tag a2 .
-  docker run a2
+    docker build --tag a2 .
+    docker run a2
   
   
 ## Run without Docker
