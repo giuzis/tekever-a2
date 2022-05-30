@@ -9,6 +9,14 @@ The assessment consists of an API to open a new &quot;current account of already
 - Also, if initialCredit is not 0, a transaction will be sent to the new account. 
 - Another Endpoint will output the user information showing Name, Surname, balance, and transactions of the accounts. 
 
+### Requirements
+
+Add .env in the directory root:
+
+        ENV=development
+        PORT=5000
+
+
 ## Run with Docker
 
 ### Install
@@ -18,7 +26,6 @@ The assessment consists of an API to open a new &quot;current account of already
 ### Execution
     docker build --tag a2 .
     docker run a2
-  
   
 ## Run without Docker
 
