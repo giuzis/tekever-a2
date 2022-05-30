@@ -26,7 +26,7 @@ Add .env in the directory root:
 
 ### Execution
     docker build --tag a2 .
-    docker run a2
+    docker run -d -p 5000:5000 a2
     
 Go to http://localhost:5000/api
   
