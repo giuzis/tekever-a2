@@ -45,7 +45,7 @@ class CustomerItem(Resource):
     @ns.marshal_with(customer_schema_account)
     def get(cls, customer_id):
         customer = customer_service.get_by_id(customer_id)
-        if customer is None:
+        if customer == None:
             return 400, {'message': 'customer_id not found'}
         else:
             accounts = account_service.get_by_customer_id(customer_id)
